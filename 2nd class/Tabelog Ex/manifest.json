@@ -13,8 +13,12 @@
         "css": ["mystyle.css"]
       },
       {
-        "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-02.html#tutorial"],
+        "matches": ["https://www2.kobe-u.ac.jp/~tnishida/programming/ChromeExtension-02.html"],
         "js": ["irohadono.js"]
+      },
+      {
+        "matches": ["https://kakaku.com/pc/cpu/"],
+        "js": ["kakakuCpu.js"]
       }
     ]
   }
