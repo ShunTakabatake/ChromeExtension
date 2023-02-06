@@ -1,0 +1,12 @@
+{
+    "name": "Youtube only English",
+    "description": "Remove movies that includes title in Japanese. It's useful to study Eglish.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/"],
+        "js": ["youtubeEn.js"]
+      }
+    ]
+  }
