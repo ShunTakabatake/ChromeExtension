@@ -12,12 +12,13 @@ for(;;){
 
 function deleteMovies(){
   let titles = document.querySelectorAll(".style-scope ytd-rich-grid-media");
-  for(let i = 0; i < titles.length; i++){
-        let e = titles[i];
-        let movie = e.closest(".style-scope ytd-richgrid-row");
-        if(jpFinder(e.innerText)){
-           movie.style.display = 'none';
-        }
+  let movies = document.querySelectorAll(".style-scope ytd-rich-grid-row")
+  for(let i = 0; i < movies.length; i++){
+      let e = titles[i]
+      let m = movies[i]
+      if(jpFinder(e.innerText)){
+        m.style.display = 'none';
+      }
     }
 }
 
