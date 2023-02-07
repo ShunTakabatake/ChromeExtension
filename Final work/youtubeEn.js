@@ -1,6 +1,6 @@
 let count = 0
 const time = 500
-for(;;){
+for(let i = 0; i < 50; i++){
   if(count == time){
     deleteMovies()
     count++
